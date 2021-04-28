@@ -1,0 +1,30 @@
+{
+    "cluster": null,
+    "email": "test@test.com",
+    "environments": {
+        "root": "48d45492-b0ee-4a94-b902-a073be9d5255"
+    },
+    "functions": {
+        "admin-create-user": {
+            "POST": [
+                "admin"
+            ]
+        },
+        "success-function": {
+            "GET": [
+                "public"
+            ]
+        },
+        "match": {
+            "POST": [
+                "public"
+            ]
+        }
+    },
+    "id": "48d45492-b0ee-4a94-b902-a073be9d5255",
+    "name": "Test",
+    "parent_id": "ef374da3-7b8d-40bf-a540-402ecc5adef8",
+    "payment_account": null,
+    "performance_level": 0,
+    "workflow": null
+}
