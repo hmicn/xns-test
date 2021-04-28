@@ -2,7 +2,7 @@
     "cluster": null,
     "email": "test@test.com",
     "environments": {
-        "root": "48d45492-b0ee-4a94-b902-a073be9d5255"
+        "root": "48076199-300e-4ef4-82d2-0ddcd34b52e4"
     },
     "functions": {
         "admin-create-user": {
@@ -21,7 +21,7 @@
             ]
         }
     },
-    "id": "48d45492-b0ee-4a94-b902-a073be9d5255",
+    "id": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
     "name": "Test",
     "parent_id": "ef374da3-7b8d-40bf-a540-402ecc5adef8",
     "payment_account": null,
