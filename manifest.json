@@ -1,33 +1,47 @@
 {
-    "cluster": null,
-    "email": "test@test.com",
+    "id": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
+    "cluster": "c1377631c_cluster_1",
+    "email": "go@xonatis.com",
+    "name": "XONATIS Test App",
+    "parent_id": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
+    "payment_account": null,
+    "workflow": {},
     "environments": {
         "master": {
-            "id" : "48076199-300e-4ef4-82d2-0ddcd34b52e4",
-            "source" : "git@github.com:hmicn/xns-test.git#master"
+            "id": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
+            "source": "git@github.com:hmicn/xns-test.git#master"
         }
     },
+    "performance_level": 0,
     "functions": {
-        "admin-create-user": {
-            "POST": [
-                "admin"
-            ]
-        },
         "success-function": {
             "GET": [
                 "public"
             ]
         },
-        "match": {
+        "admin-create-user": {
             "POST": [
-                "public"
+                "admin"
             ]
         }
     },
-    "id": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
-    "name": "Test",
-    "parent_id": "ef374da3-7b8d-40bf-a540-402ecc5adef8",
-    "payment_account": null,
-    "performance_level": 0,
-    "workflow": null
+    "classes": {
+        "products": {
+            "roles_read": {
+                "public": [
+                    "*"
+                ]
+            },
+            "roles_write": {
+                "assistant": [
+                    "name",
+                    "description",
+                    "price"
+                ],
+                "admin": [
+                    "*"
+                ]
+            }
+        }
+    }
 }
