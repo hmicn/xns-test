@@ -2,8 +2,10 @@
     "cluster": null,
     "email": "test@test.com",
     "environments": {
-        "master": "48076199-300e-4ef4-82d2-0ddcd34b52e4",
-        "source" : "git@github.com:hmicn/xns-test.git#master"
+        "master": {
+            "id" : "48076199-300e-4ef4-82d2-0ddcd34b52e4",
+            "source" : "git@github.com:hmicn/xns-test.git#master"
+        }
     },
     "functions": {
         "admin-create-user": {
